@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(77, 77, 201);
+    color: aliceblue;
+    font-family: monospace;
+}
+video{
+    border: 5px solid red;
+}
+input{
+    border: 2px solid gold;
+}
+button{
+    background-color: gold;
+    border: 4px dotted black;
+    width: 100px;
+}
+a{
+    color: aliceblue;
+}
+input[type="text"]{
+    border: 10px solid gold;
+}
+.class{
+    color:pink
+}
+#id{
+    color:black
+}

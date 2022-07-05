@@ -1,0 +1,71 @@
+.parent{
+    background-color: brown;
+}
+
+.child{
+    background-color: aqua;
+    padding: 10px;
+    border: 4px solid black;
+    display: block;
+    margin: 10px;
+}
+.parent1{
+    position: relative;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.child1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+
+*{
+    margin: 0;
+}
+
+.parent2{
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin: 50px;
+}
+
+.content{
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+}
+
+.body{
+    padding: 30px;
+    display: inline-block;
+}
+
+button{
+    color: white;
+    background-color: green;
+    border: 5px solid black;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
+}
+button:focus{
+     background-color: yellow;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    opacity: 50%;
+}

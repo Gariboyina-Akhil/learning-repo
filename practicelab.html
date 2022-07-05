@@ -1,0 +1,26 @@
+<html>
+<body bgcolor ="green">
+<form>
+select any country:
+<select id ="mySelect">
+<option value="Delhi">India</option>
+
+<option value="maskov">Russia</option>
+
+<option value="Tokyo">Japan</option>
+
+<option value="paris">Europe</option>
+
+<option value="washington DC">US</option>
+</select>
+</form>
+<button type="button" onclick="myFunction()">ok</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+var x = document.getElementById("mySelect").value;
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+</body>
+</html>

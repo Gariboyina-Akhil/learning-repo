@@ -1,0 +1,51 @@
+body{
+    background-color: gold;
+    margin: 230px;
+}
+
+.akhil{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    border: 6px dotted white;
+}
+
+@media (min-width:786px){
+    .akhil{
+        background-color: white;
+        border: 6px dotted black;
+    }
+}
+
+@media(min-width: 1020px ){
+    .akhil{
+        background-color: pink;
+        border: 6px dotted blue;
+    }
+}
+
+@media(min-width:1400px){
+    .akhil{
+        background-color: red;
+        border: 6px dotted black;
+    }
+}
+
+.flexbox{
+    background-color: white;
+    width: 100%;
+    height:100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
+.child{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+
+}
